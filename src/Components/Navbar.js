@@ -13,7 +13,7 @@ export default function Navbar({ keyword, handleChange }) {
               placeholder="Search"
               aria-label="Search"
               value={keyword}
-              onChange={handleChange}
+              onChange={(e) => handleChange(e.target.value)}
             />
             
             

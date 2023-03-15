@@ -9,11 +9,9 @@ export default function Addmore({ next, prev, page }) {
         className="btn btn-primary"
         onClick={prev}
       >
-        {" "}
         &larr; Previous
       </button>
       <button type="button" className="btn btn-primary" onClick={next}>
-        {" "}
         Next &rarr;
       </button>
     </div>
